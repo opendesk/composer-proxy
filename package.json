@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevegeek/composer-proxy"
+    "url": "https://github.com/opendesk/composer-proxy"
   },
   "keywords": [
     "proxy",
@@ -15,9 +15,9 @@
   "author": "Stephen Ierodiaconou (http://opendesk.cc)",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/stevegeek/composer-proxy/issues"
+    "url": "https://github.com/opendesk/composer-proxy/issues"
   },
-  "homepage": "https://github.com/stevegeek/composer-proxy",
+  "homepage": "https://github.com/opendesk/composer-proxy",
   "scripts": {
     "test": "eslint -c .eslintrc.js . && jest",
     "docs": "jsdoc -R ./README.md --verbose -P ./package.json -c ./jsdoc-config.json"
@@ -35,7 +35,7 @@
     "pino": "^4.7.2",
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
-    "synthetis": "git://github.com/stevegeek/synthetis.git"
+    "synthetis": "git://github.com/opendesk/synthetis.git"
   },
   "devDependencies": {
     "docdash": "^0.4.0",
