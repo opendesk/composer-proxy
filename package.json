@@ -29,17 +29,13 @@
     "bluebird": "^3.5.0",
     "http-proxy": "^1.16.2",
     "koa": "^2.2.0",
-    "koa-connect": "^2.0.0",
     "koa-router": "^7.1.1",
     "koa-views": "^6.0.2",
-    "lodash.get": "^4.4.2",
     "lodash.merge": "^4.6.0",
     "pino": "^4.7.2",
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
-    "synthetis": "git://github.com/stevegeek/synthetis.git",
-    "uuid": "^3.0.1",
-    "winston": "^2.3.1"
+    "synthetis": "git://github.com/stevegeek/synthetis.git"
   },
   "devDependencies": {
     "docdash": "^0.4.0",
