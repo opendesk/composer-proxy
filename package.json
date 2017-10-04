@@ -1,0 +1,50 @@
+{
+  "name": "composer-proxy",
+  "description": "Compose content from backends into single document",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevegeek/composer-proxy"
+  },
+  "keywords": [
+    "proxy",
+    "HTML composition",
+    "response composition",
+    "response aggregation"
+  ],
+  "author": "Stephen Ierodiaconou (http://opendesk.cc)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/stevegeek/composer-proxy/issues"
+  },
+  "homepage": "https://github.com/stevegeek/composer-proxy",
+  "scripts": {
+    "test": "eslint -c .eslintrc.js . && jest",
+    "docs": "jsdoc -R ./README.md --verbose -P ./package.json -c ./jsdoc-config.json"
+  },
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "http-proxy": "^1.16.2",
+    "koa": "^2.2.0",
+    "koa-connect": "^2.0.0",
+    "koa-router": "^7.1.1",
+    "koa-views": "^6.0.2",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.0",
+    "pino": "^4.7.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "synthetis": "git://github.com/stevegeek/synthetis.git",
+    "uuid": "^3.0.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "docdash": "^0.4.0",
+    "eslint": "^3.19.0",
+    "jest": "^20.0.4",
+    "jsdoc": "^3.4.3"
+  }
+}

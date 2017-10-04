@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "concurrently \"node ./backend-example.js\" \"node ./index.js\""
+  },
+  "dependencies": {
+    "composer-proxy": "git://github.com/stevegeek/composer-proxy.git",
+    "concurrently": "^3.5.0",
+    "dotenv": "^4.0.0"
+  }
+}
